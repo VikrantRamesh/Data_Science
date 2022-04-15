@@ -1,0 +1,199 @@
+
+
+body{
+  background-color: #fffaf2;
+  background-image: url("F:/Vikrant Data- July 21 2021/My Doucuments/Coding Projects/Web Development/Data Science Website/Main_img.jpeg");
+  background-repeat: no-repeat;
+  background-size: 2000px 800px;
+}
+
+/*color Pallete*/
+.color1 {color: #120907;}
+.color2 {color: #2b2741;}
+.color3 {color: #666290;}
+.color4 {color: #d4caff;}
+.color5 {color: #fffaf2;}
+.color6 {color: #f3eae8;}
+
+/*Dots Design*/
+.dots{
+  border-style: dotted none none;
+  background-color: none;
+  border-width: 10px;
+  width: 50%;
+  margin-top: 40px;
+}
+
+.dots_vert{
+  border-style: none dotted none none;
+  background-color: none;
+  border-width: 10px;
+  height: 420px;
+  margin-top: 40px;
+  padding:50px;
+  margin-right:100px;
+}
+
+/*Main Title styling*/
+.title_font{
+  font-family: Sans-serif;
+  font-weight: 600;
+}
+.sub_title_font{
+  font-family: Sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+/*Main Background image styling*/
+.Background_img{
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+/*Menu Icon*/
+
+.menu_icon{
+  position: relative;
+  bottom:400px;
+  left:1200px;
+  border-radius: 100%;
+  width:50px;
+  height:50px;
+}
+.menu_icon:hover{
+  height:70px;
+  width:70px;
+}
+
+
+/*Circular MenuBar styling*/
+
+.menu_bar{
+    position:absolute;
+    opacity: 0.8;
+}
+.menu_bar_icon{
+    top:800px;
+    left:180px;
+}
+.menu_bar_doc{
+  top:890px;
+  left:104px;
+}
+.menu_bar_learn{
+  top:972px;
+  left:0px;
+}
+
+.menu_bar:hover{
+    opacity: 1;
+}
+
+
+/*Discription styling*/
+
+.disription_title{
+  font-size: 50px;
+}
+
+.disription{
+  font-family:monospace;
+  font-size: 30px;
+  color: #3e5694;
+}
+.discription_box{
+  width: 60%;
+  height:auto;
+  margin-top:60px;
+  background-color: #ffdeff;
+  padding:50px;
+  border-radius: 10px;
+}
+.discription_box_right{
+  margin-left: 600px;
+}
+.discription_box_left{
+  margin-left: 100px;
+}
+
+/****end_box exclusive****/
+.end_box_discription_cell{
+  width:40%;
+  padding:20px;
+}
+
+.end_box_discription{
+  font-family:monospace;
+  font-size: 30px;
+}
+
+/*end box*/
+.end_box{
+  width:100%;
+  background-color: #835ccb;
+  opacity:0.75;
+  margin: 30px 0 0 0;
+  text-align:left;
+  padding:20px;
+}
+
+/********Image Styling*******/
+.Display_image{
+  height:500px;
+  width: 500px;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.Display_image_right{
+  right:50px;
+}
+
+.Display_image_left{
+  left:50px;
+}
+
+em{
+  font-style: oblique;
+  font-weight: 700;
+  font-size: 50px;
+  font-variant: small-caps;
+  color: #d4caff;
+}
+
+div{
+  text-align: center;
+  width: 50%;
+}
+
+
+
+/********** GENERAL USEAGE ***********/
+.inline_div{
+  display:inline;
+}
+.inline_block_div{
+  display:inline-block;
+}
+.block_div{
+  display:block;
+}
+
+/*******special uses************/
+#end_box_title{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 60px;
+  color: white;
+}
+
+#welcome_text_margin
+{
+    margin: 250px auto 0 auto;
+}
+
+#Job_Role_Discription{
+  vertical-align: top;
+}
