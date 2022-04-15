@@ -2,7 +2,7 @@
 
 body{
   background-color: #fffaf2;
-  background-image: url("F:/Vikrant Data- July 21 2021/My Doucuments/Coding Projects/Web Development/Data Science Website/Main_img.jpeg");
+  background-image: url("/Main_img.jpeg");
   background-repeat: no-repeat;
   background-size: 2000px 800px;
 }
